@@ -5,5 +5,6 @@ def find_max_value(array)
     sorted_array.push(array[count])
     count += 1
   end 
+  sorted_array.sort
   sorted_array[-1]
 end
